@@ -1,0 +1,11 @@
+[2024-07-24 23:14:54,622] 21 root - INFO - Entered the data ingestion method or component
+[2024-07-24 23:14:54,622] 24 root - INFO - Read the dataset as dataframe
+[2024-07-24 23:14:54,631] 27 root - INFO - Train test split initiated
+[2024-07-24 23:14:54,639] 31 root - INFO - Ingestion of the data is completed
+[2024-07-24 23:14:54,664] 71 root - INFO - Read train and test data completed
+[2024-07-24 23:14:54,664] 72 root - INFO - Obtaining preprocessing object
+[2024-07-24 23:14:54,664] 50 root - INFO - Numerical columns : ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[2024-07-24 23:14:54,672] 52 root - INFO - Categorical columns : Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())])
+[2024-07-24 23:14:54,680] 82 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[2024-07-24 23:14:54,704] 91 root - INFO - Saved preprocessing object. 
